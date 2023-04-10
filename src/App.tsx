@@ -5,8 +5,8 @@ import SideBar from "./layout/SideBar"
 const App = () => {
 
     return (<>
-            <Nav />
-        <div className="flex flex-row h-screen">
+        <Nav />
+        <div className="flex flex-col lg:flex-row">
             <SideBar />
             <Main />
         </div>
