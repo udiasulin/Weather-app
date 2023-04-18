@@ -13,7 +13,10 @@ module.exports = {
                 'btnBlack': '#1A1A1A',
                 'subText': '#BDBDBD',
                 'bgGray': '#F6F6F8'
-            }
+            },
+            screens: {
+                xl3: '1920px',
+            },
         },
     },
 }

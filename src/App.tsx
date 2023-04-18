@@ -5,13 +5,12 @@ import SideBar from "./layout/SideBar"
 const App = () => {
 
     return (<>
-        <Nav />
         <div className="flex flex-col lg:flex-row">
-            <SideBar />
-            <Main />
+        <Nav />
+        <SideBar />
+        <Main />
         </div>
-    </>
-    )
+    </>)
 }
 
 export default App
