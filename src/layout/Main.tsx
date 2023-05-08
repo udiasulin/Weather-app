@@ -2,6 +2,8 @@ import Info from "../components/InfoSection";
 import WeeklyCastSection from "../components/WeeklyCastSection";
 
 const Main = () => {
+
+    
     return (
         <main className="h-screen bg-bgGray flex flex-col text-center
         lg:w-2/3 lg:text-left">
